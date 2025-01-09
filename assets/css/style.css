@@ -180,6 +180,10 @@ footer .table-dark * {
     #fav-games .card-body {
         min-height: auto;
     }
+
+    #success img {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
