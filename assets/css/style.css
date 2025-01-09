@@ -29,3 +29,14 @@ h1, h2, h3 {
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
+/* Temp Grid Visualisation CSS */
+.container,
+.row {
+    border: 2px solid red;
+}
+
+.col-12 {
+    border: 2px solid blue;
+    background-color: lightblue;
+}
