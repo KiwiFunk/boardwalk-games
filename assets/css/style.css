@@ -118,6 +118,16 @@ header .lead {
     background-color: transparent;
 }
 
+.table-hover > tbody > tr:hover {
+    --bs-table-hover-bg: var(--highlight-color-light) !important;
+}
+
+#events span {
+    background-color: var(--highlight-color);
+    color: white;
+    padding: 8px 12px;
+}
+
 /* Game Library */
 
 #fav-games .card,
