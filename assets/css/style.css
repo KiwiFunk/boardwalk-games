@@ -39,7 +39,7 @@ h2 {
 
 /* Reusable Margin Class */
 .section {
-    margin: 2rem auto;
+    margin: 2.5rem auto;
 }
 
 .sub-heading-color {
@@ -187,7 +187,11 @@ footer .table-dark * {
     }
 
     /* Testimonials Section */
-    
+
+    #testimonials .testimonial-text {
+        min-height: 94px;
+    }
+
     /* Make sure height is fixed, and any overflow is hidden */
     .testimonials-wrapper {
         height: 400px; /* Adjust height as needed */
@@ -214,6 +218,10 @@ footer .table-dark * {
         width: 50%;
     }
 
+    #testimonials .testimonial-text {
+        min-height: 90px;
+    }
+
     
 }
 
@@ -226,6 +234,10 @@ footer .table-dark * {
     #fav-games .card-body {
         min-height: 241px;
     }
+
+    #testimonials .testimonial-text {
+        min-height: 95px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -236,6 +248,10 @@ footer .table-dark * {
 
     #fav-games .card-body {
         min-height: 218px;
+    }
+
+    #testimonials .testimonial-text {
+        min-height: auto;
     }
 }
 
