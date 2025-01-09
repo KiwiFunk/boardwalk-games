@@ -47,3 +47,38 @@ h1, h2, h3 {
 header .lead {
     font-family: var(--secondary-font);
 }
+
+/* Header Carousel */
+#carouselHeader {
+    height: 100%;
+    width: 100%;
+}
+
+#carouselHeader .carousel-inner,
+#carouselHeader .carousel-item {
+    height: 100%;
+}
+
+#carouselHeader img {
+    object-fit: cover;
+    height: 100%;
+    min-height: 300px; /* Ensures minimum height on smaller screens */
+}
+
+
+
+
+/* Debugging */
+/*
+.container {
+    border: 1px solid red;
+}
+
+.row {
+    border: 1px solid blue;
+}
+
+.col-12 {
+    border: 1px solid green;
+}
+*/
