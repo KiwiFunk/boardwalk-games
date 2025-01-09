@@ -112,6 +112,12 @@ header .lead {
     background-color: transparent;
 }
 
+/* Events Section */
+
+#events .table-light * {
+    background-color: transparent;
+}
+
 /* Game Library */
 
 #fav-games .card,
