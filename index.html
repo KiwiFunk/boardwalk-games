@@ -23,12 +23,36 @@
 <!-- Display Flex, Flex Column, Min VH 100. Works with mt-auto on footer -->
 <body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo-sm-white.png" alt="Boardwalk Games logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="game-library.html">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Header -->
      <header class="container">
         <div class="row">
-            <div class="col-12 col-lg-6">Boardwalk Games into heading and text.</div>   <!-- Changed from XL to LG for easier testing in VSC -->
-            <div class="col-12 col-lg-6">Image Carousel</div>
+            <div class="col-12 col-xl-6">Boardwalk Games into heading and text.</div>   
+            <div class="col-12 col-xl-6">Image Carousel</div>
         </div>
      </header>
 
@@ -36,28 +60,27 @@
         <!-- Services Section -->
         <section class="container">
             <div class="row">
-                <div class="col-12">Services Section Heading</div>                      <!-- Changed from XL to LG for easier testing in VSC -->
-                <div class="col-12 col-md-6 col-lg-3">Services Card</div>                           
-                <div class="col-12 col-md-6 col-lg-3">Services Card</div>
-                <div class="col-12 col-md-6 col-lg-3">Services Card</div>
-                <div class="col-12 col-md-6 col-lg-3">Services Card</div>
+                <div class="col-12">Services Section Heading</div>                      
+                <div class="col-12 col-md-6 col-xl-3">Services Card</div>                           
+                <div class="col-12 col-md-6 col-xl-3">Services Card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services Card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services Card</div>
             </div>
         </section>
     </main>
 
     <!-- Footer/Contact -->
-     <footer class="mt-auto">
+    <footer class="mt-auto">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">Contact Section Heading</div>
-                <!-- Changed from XL to LG for easier testing in VSC -->
                 <!-- Contact Info -->
-                <div class="col-12 col-md-6 col-lg-4">Contact info & social links</div>                          
+                <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>                          
                 <!-- Opening Times -->
-                <div class="col-12 col-md-6 col-lg-4">Opening Times</div>
+                <div class="col-12 col-md-6 col-xl-4">Opening Times</div>
             </div>
         </div>
-     </footer>
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

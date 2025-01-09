@@ -40,3 +40,12 @@ h1, h2, h3 {
     border: 2px solid blue;
     background-color: lightblue;
 }
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar img {
+    max-width: 30px;
+}
