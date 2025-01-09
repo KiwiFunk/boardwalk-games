@@ -22,12 +22,15 @@
 </head>
 
 <!-- Display Flex, Flex Column, Min VH 100. Works with mt-auto on footer -->
+
 <body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/logo-sm-white.png" alt="Boardwalk Games logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo-sm-white.png"
+                    alt="Boardwalk Games logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -52,6 +55,65 @@
         </div>
     </nav>
 
+    <!-- Header section -->
+    <header id="header" class="container section">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 text-center text-xl-start">
+                <h1 class="display-3">Boardwalk Games</h1>
+                <p class="my-4">
+                    Thank you for choosing to reserve a spot at Boardwalk Games! Please
+                    fill out the form below with your details and preferred event. A
+                    member of our team will call you back as soon as possible to confirm
+                    your booking and answer any questions you may have.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Booking inquiry form section -->
+        <section id="booking-form" class="container section mb-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2>Booking inquiry</h2>
+                    <form>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="event-type" class="form-label">Event type</label>
+                                <select id="event-type" class="form-select" name="event-type" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="regular-play">Reserve a table</option>
+                                    <option value="dnd">Dungeons & Dragons</option>
+                                    <option value="retro-night">Retro Game Night</option>
+                                    <option value="tournament">Tournament</option>
+                                    <option value="kids-party">Kids party</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
 
 
     <!-- Footer/Contact -->
@@ -65,7 +127,7 @@
                 <!-- Contact Info -->
                 <div class="col-12 col-md-6 col-xl-4">
                     <h3 class="sub-heading-color">Contact Info</h3>
-                    <address>       <!-- Address tag for semantic HTML -->
+                    <address> <!-- Address tag for semantic HTML -->
                         <i class="fa-solid fa-location-dot"></i>
                         <strong>Boardwalk Games</strong><br>
                         123 Boardwalk Avenue<br>
@@ -88,7 +150,7 @@
                             aria-label="Visit our X feed (opens in a new tab)">
                             <i class="fab fa-x-twitter"></i></a>
                     </div>
-                </div>                          
+                </div>
                 <!-- Opening Times -->
                 <div class="col-12 col-md-6 col-xl-4">
                     <h3 class="sub-heading-color">Opening Times</h3>
@@ -130,8 +192,10 @@
 
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
     <!-- Custom JS -->
     <script src="assets/js/scripts.js"></script>
 
