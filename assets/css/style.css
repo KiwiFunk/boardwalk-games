@@ -85,6 +85,34 @@ header .lead {
     margin-bottom: 1.5rem;
 }
 
+/* Media Queries */
+@media screen and (min-width: 768px) {
+
+    .section .card-body {
+        min-height: 194px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .section .card-body {
+        min-height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .section .card-body {
+        min-height: 220px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .section .card-body {
+        min-height: 195px;
+    }
+}
 
 /* Debugging */
 /*
