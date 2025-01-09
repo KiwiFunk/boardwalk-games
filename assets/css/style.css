@@ -23,22 +23,15 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
+}
 
+.section {
+    margin: 2rem auto;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
-}
-
-/* Temp Grid Visualisation CSS */
-.container,
-.row {
-    border: 2px solid red;
-}
-
-.col-12 {
-    border: 2px solid blue;
-    background-color: lightblue;
 }
 
 /* Navbar */
@@ -48,4 +41,9 @@ h1, h2, h3 {
 
 .navbar img {
     max-width: 30px;
+}
+
+/* Header */
+header .lead {
+    font-family: var(--secondary-font);
 }
