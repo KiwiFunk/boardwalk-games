@@ -23,9 +23,17 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+h1, h2 {
     text-transform: uppercase;
 }
 
+h2 {
+    margin-bottom: 2rem;
+}
+
+/* Reusable Margin Class */
 .section {
     margin: 2rem auto;
 }
@@ -65,7 +73,17 @@ header .lead {
     min-height: 300px; /* Ensures minimum height on smaller screens */
 }
 
+/* Services Section */
 
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
 
 
 /* Debugging */
