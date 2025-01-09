@@ -33,6 +33,10 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.card {
+    margin-bottom: 1.5rem;
+}
+
 /* Reusable Margin Class */
 .section {
     margin: 2rem auto;
@@ -81,8 +85,16 @@ header .lead {
     background-color: transparent;
 }
 
-#services .card {
-    margin-bottom: 1.5rem;
+/* Game Library */
+
+#fav-games .card,
+#new-games .card {
+    border: none;
+}
+
+#fav-games .list-group-item,
+#new-games .list-group-item {
+    border: none;
 }
 
 /* Media Queries */
@@ -91,11 +103,19 @@ header .lead {
     .section .card-body {
         min-height: 194px;
     }
+
+    #fav-games .card-body {
+        min-height: 216px;
+    }
 }
 
 @media screen and (min-width: 992px) {
 
     .section .card-body {
+        min-height: auto;
+    }
+
+    #fav-games .card-body {
         min-height: auto;
     }
 }
@@ -105,12 +125,20 @@ header .lead {
     .section .card-body {
         min-height: 220px;
     }
+
+    #fav-games .card-body {
+        min-height: 241px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
 
     .section .card-body {
         min-height: 195px;
+    }
+
+    #fav-games .card-body {
+        min-height: 218px;
     }
 }
 
