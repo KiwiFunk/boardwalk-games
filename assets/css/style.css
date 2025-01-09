@@ -185,6 +185,19 @@ footer .table-dark * {
     #fav-games .card-body {
         min-height: 216px;
     }
+
+    /* Testimonials Section */
+    
+    /* Make sure height is fixed, and any overflow is hidden */
+    .testimonials-wrapper {
+        height: 400px; /* Adjust height as needed */
+        overflow: hidden;
+    }
+
+    .testimonials-row {
+        flex-wrap: nowrap;
+        overflow-x: hidden;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -200,6 +213,8 @@ footer .table-dark * {
     #success img {
         width: 50%;
     }
+
+    
 }
 
 @media screen and (min-width: 1200px) {
