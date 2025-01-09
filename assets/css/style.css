@@ -39,7 +39,7 @@ h2 {
 
 /* Reusable Margin Class */
 .section {
-    margin: 2.5rem auto;
+    padding-top: 4rem;
 }
 
 .sub-heading-color {
