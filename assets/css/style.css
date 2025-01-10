@@ -42,6 +42,10 @@ h2 {
     border-radius: 0;
 }
 
+.card-shadow {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Reusable Margin Class */
 .section {
     padding-top: 4rem;
