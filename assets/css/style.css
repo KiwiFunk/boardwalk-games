@@ -133,6 +133,13 @@ header .lead {
     padding: 8px 12px;
 }
 
+/* Cafe */
+
+#menu span {
+    color: var(--highlight-color);
+    font-weight: bold;
+}
+
 /* Game Library */
 
 #fav-games .card,
