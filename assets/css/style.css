@@ -52,6 +52,8 @@ h2 {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
     color: white;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -65,6 +67,8 @@ h2 {
     border: 3px solid var(--highlight-color);
     padding: 7px 25px;
     color: var(--highlight-color);
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -99,7 +103,8 @@ header .lead {
 }
 
 #carouselHeader img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 100%;
     min-height: 300px; /* Ensures minimum height on smaller screens */
 }
@@ -165,6 +170,8 @@ footer i {
 footer .social-links i {
     color:var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -200,7 +207,8 @@ footer .table-dark * {
     }
 
     .testimonials-row {
-        flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
         overflow-x: hidden;
     }
 }
@@ -255,18 +263,3 @@ footer .table-dark * {
         min-height: auto;
     }
 }
-
-/* Debugging */
-/*
-.container {
-    border: 1px solid red;
-}
-
-.row {
-    border: 1px solid blue;
-}
-
-.col-12 {
-    border: 1px solid green;
-}
-*/
