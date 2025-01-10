@@ -197,7 +197,7 @@ footer .table-dark * {
     /* Testimonials Section */
 
     #testimonials .testimonial-text {
-        min-height: 94px;
+        min-height: 96px;
     }
 
     /* Make sure height is fixed, and any overflow is hidden */
@@ -228,7 +228,7 @@ footer .table-dark * {
     }
 
     #testimonials .testimonial-text {
-        min-height: 90px;
+        min-height: 75px;
     }
 
     
@@ -245,7 +245,7 @@ footer .table-dark * {
     }
 
     #testimonials .testimonial-text {
-        min-height: 95px;
+        min-height: 96px;
     }
 }
 
