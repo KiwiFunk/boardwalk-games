@@ -37,6 +37,11 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+.sharp-corners,
+.sharp-corners * {              /* Using wildcard selector selects all elements with a parent that has the .sharp-corners class */
+    border-radius: 0;
+}
+
 /* Reusable Margin Class */
 .section {
     padding-top: 4rem;
